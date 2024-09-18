@@ -1,0 +1,17 @@
+# Sanal ortam dosyalarını hariç tut
+.venv/
+env/
+venv/
+  
+# Büyük dosyalar
+*.dll
+*.pyd
+*.so
+*.exe
+*.zip
+
+# Diğer potansiyel büyük dosyalar (örn. modeller)
+*.h5
+*.tflite
+*.ckpt
+*.weights
